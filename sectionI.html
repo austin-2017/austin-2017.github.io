@@ -27,7 +27,9 @@ td {
 
             <div class="row">	    
    	    <div style="background:url(CITY_HALL_PHILADELPHIA.jpg);background-size:cover;text-align:center;color:white;padding:50px;height:300px;">
-             <div class="container" style="padding-top:50px;">	       
+             <div class="container" style="padding-top:50px;">
+		     <!-- using buttons as links HTML5 assists those with low vision -->
+		     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#index-aria-link -->
                <nav>	 
 		<div class="col-md-4" style="text-align:center;">
 		  <h3><a href="index.html"><span class="label label-default">Previous: Home Page</span></a></h3><br />		       
@@ -37,7 +39,7 @@ td {
 		</div>
 		<div class="col-md-4" style="text-align:center;">
 		  <h3><a href="sectionII.html"><span class="label label-default">Next: Introduction</span></a></h3><br />
-			<button type="button" class="btn btn-default btn-lg" aria-label="next"><a href="sectionII.html">Next</a>
+			<button type="button" role="link" class="btn btn-default btn-lg" aria-label="next"><a href="sectionII.html">Next</a>
                           <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span>
                        </button>
 		</div>
