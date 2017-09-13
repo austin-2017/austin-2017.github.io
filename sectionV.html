@@ -135,78 +135,88 @@ We also reviewed the design of the Online Student Support Portal in terms of our
 
    <div class="row">
     <div class="container">
-        <footer class="site-footer">
-		<div class="col-md-4"><!-- start first footer section -->
+      <nav role="navigation" class="site-footer"><!-- looks like a footer but functions as navigation -->
+	  <!-- https://www.w3.org/TR/wai-aria-practices/ -->
+	     <div class="col-md-4"><!-- start first footer section -->
 			
 	         <ul>
-		  <li class=""><a href="index.html">Home Page</a></li><br />	 
-                  <li class=""><a href="sectionI.html">I. Table of Contents</a></li><br />
-                  <li class=""><a href="sectionII.html">II. Introduction</a></li><br />            
-                  <li class=""><a href="sectionIII.html">III. Background</a></li><br />
-		   <li class=""><a href="sectionIV.html">IV. How The Portal Was Built</a></li><br />	 
+		  <li class=""><h4><a href="index.html">Home Page</span></h4></li><br />	 
+		  <li class=""><h4><a href="sectionI.html">I. Table of Contents</a></h4></li><br />
+		  <li class=""><h4><a href="sectionII.html">II. Introduction</a></h4></li><br />
+	          <!-- Three main points of focus are technical, financial, personal pride -->
+		  <li class=""><h4><a href="sectionIII.html">III. Background</a></h4></li><br />
+		  <li class=""><h4><a href="sectionIV.html">IV. How The Portal Was Built</a></h4></li><br />	 
 	         </ul>
 			
 	       </div><!-- end first footer section -->	
 	      <div class="col-md-4"><!-- start second footer section -->
 		      
 	         <ul>  
-		   <li class=""><a href="sectionV.html">V. Discoveries</a></li><br />
-			 <!-- to connect a student to expertise, we have to train them -->
-			 <!-- also have to train the supporters -->
-			 <!-- we expect students to learn we teach students what to expect and how to use an interface -->
-			 <!-- bring the content to them rather than the other way around -->
-			 <!-- have the experts inform the AI -->
-			 <!-- Following a WCAG checklist would make us accessible -->
-			 <!-- screen-reader heavy -->
-			 <!-- added the extra steps for copy and paste feature of Dragon -->
-			 <!-- Finances must retrain Dragon if get the personal version -->
-                   <li class=""><a href="sectionVI.html/">VI. Time Management</a></li><br />
-			  <!-- For students, spare them trying to decipher meaning behind categories -->
-			 <!-- Easier to use voice than hand for many -->
-			 <!-- support the supporters -->
-		         <!-- time management for both student and support staff -->	 
+		     <li class=""><h4><a href="sectionV.html">V. Discoveries</a></h4></li><br />
+			 <!-- We realized that to connect a student to expertise, we have to train them. -->
+			 <!-- we expect students to learn we teach students what to expect and how to use an interface. -->
+			 <!-- We should bring the content to them rather than the other way around.  -->
+			 <!-- Expecting information to be delivered is becoming the norm. -->
+			 <!-- Heavy reliance on videos, long files to train users, both of which are problematic. -->
+			 <!-- We also have to train the supporters.  -->
+			 <!-- Expertise is in silos.  Bolted-on assets maintain the silos. -->
+			 <!-- We should have the experts inform the AI.  -->
+			 <!-- Following a WCAG checklist would make us accessible for screen readers not necessarily for all -->
+			 <!-- WAI-ARIA and WCAG benefits are screen-reader heavy. -->
+			 <!-- There were many added the extra steps for copy and paste feature of Dragon. -->
+			 <!-- Those with motor problems challenged by time limit of mouse click. -->
+			 <!-- Finances must retrain Dragon if get the personal version. -->
+			 <li class=""><h4><a href="sectionVI.html/">VI. Time Management</a></h4></li><br />
+			 <!-- Status is not to be taken for granted -- provides feedback and fail-safe. -->
+			 <!-- Mouse clicks must fall within a range of a certain time limit to actuate the website -->
+			 <!-- For students, spare them trying to decipher meaning behind categories -->
+			 <!-- Easier to use voice than hand for many. -->
+			 <!-- Support the supporters by automation as much as possible - the sooner the update the less risk that a student will have to make an unnecessary trip e.g. volunteer at emergency -->
+			 <!-- Status update to catch those that would fall through the cracks -->
 			 <!-- silos https://www.entrepreneur.com/article/286084 -->
 
-	            <li class=""><a href="sectionVII.html">VII. Financial Issues</a></li><br />
+			 <li class=""><h4><a href="sectionVII.html">VII. Financial Issues</a></h4></li><br />
 			 <!-- if possible, relieve burden of having to download special software -->
 			 <!-- Relieve burden of maintaining special software -->
 			 <!-- Relieve burden of purchase of higher cost versions, such as Dragon Professional -->
 			 <!-- Relieve burden of finding school work stations with relevant software -->
 			 <!-- universally available -->
-                    <li class=""><a href="sectionVIII.html">VIII. Voice and why it matters so much</a></li><br />
+                       <li class=""><h4><a href="sectionVIII.html">VIII. Voice and why it matters so much</a></h4></li><br />
 			 <!-- physical ease -->
 			 <!-- physical hardwiring of the brain to be an alternative -->
 			 <!-- easier to piece together partial words than blurry images -->
-		    <li class=""><a href="sectionIX.html">IX. AI and why it matters so much</a></li><br />
-			 <!-- automation -->
+			 <li class=""><h4><a href="sectionIX.html">IX. AI and why it matters so much</a></h4></li><br />
+			 <!-- Automation -->
 			 <!-- Hurricane Irma was about time management -->
 		         <!-- Integration aids AI, saves time, ensures standards -->
 		  </ul>	
 		      
 	      </div><!-- end second  footer section -->
-	      <div class="col-md-4">
-		      
+	      <div class="col-md-4">  
 		  <ul>                    
-		     <li class=""><a href="sectionX.html">X. Safety</a></li><br />
+			  <li class=""><h4><a href="sectionX.html">X. Safety</a></h4></li><br />
 			    <!-- Personal Intervention the router -->
 			    <!-- Big data does not work with small numbers -->
 			    <!-- Those with disabilities may not ask well-formed questions -->
 			    <!-- Drop-down -->
 			    <!-- Can spend enless dollars on perfect coding, but better to have the human review -->
-		     <li class=""><a href="sectionXI.html">XI. Supporting The Supporters</a></li><br />
+			  <li class=""><h4><a href="sectionXI.html">XI. Supporting The Supporters</a></h4></li><br />
 			    <!-- simple interfaces require less maintenance by those who must code for accessibility -->
 			    <!-- less variation -->
 			    <!-- Integration -->
-                     <li class=""><a href="sectionXII.html">XII. About Integration</a></li><br />
-			    <!-- quicker -->
+			  <li class=""><h4><a href="sectionXII.html">XII. About Integration</a></h4></li><br />
+			    <!-- Federated logins required multiple stages of understanding a luxury that some dont have -->
+			    <!-- Status is an extremely important fail-safe feature that does not depend upon shared databases -->
+			    <!-- Much quicker to get the information.  Federated assets put student or user in same position of trying to decipher why he is there and understand whether his login is wrong or he is in a new location and if he is in a new location why he is there and why he was not able to get help at previous location -->
+			    <!-- Back buttons do not work so well -->
 			    <!-- reduces danger of missed data -->
 			    <!-- reduces maintenance -->
-		     <li class=""><a href="robert.html">XIII. Robert's Interface</a></li><br />
-		     <li class=""><a href="supplemental.html">XIV. Supplemental</a></li><br />
+			  <li class=""><h4><a href="robert.html">XIII. Robert's Interface</a></h4></li><br />
+			  <li class=""><h4><a href="supplemental.html">XIV. Supplemental</a></h4></li><br />
 	          </ul><br />				 	
     
 	</div> <!-- end third  footer section -->  
-     </footer>  
+     </nav>   
    </div><!-- closes container -->
   </div><!-- closes row -->
      <script type="text/javascript" src="js/main.min.js"></script>
