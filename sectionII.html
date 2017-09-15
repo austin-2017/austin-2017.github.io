@@ -69,7 +69,12 @@
 		</div><!-- closes col-md-12 -->
 
 	    <div class="col-md-12" style="text-align:center;">
-	    <button class="btn btn-lg info">See Transcript</button>    
+		 <script>
+			$( "button" ).click(function() {
+			  $( "transcript" ).toggle();
+			});
+		</script>
+	    <button class="btn btn-lg btn-info">See Transcript</button>    
 	    </div><!-- closes col-md-12 -->
 	    <div class="col-md-12">
 	    <transcript id="transcript1" style="display:none">
@@ -362,11 +367,7 @@ We are convinced that the platform we have developed is unique among institution
   </footer> 
      <script type="text/javascript" src="js/main.min.js"></script>
      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-     <script>
-	$( "button" ).click(function() {
-	  $( "transcript" ).toggle();
-	});
-</script>
+
 </body> 
 </html>      
                  
