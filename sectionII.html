@@ -75,14 +75,15 @@
 	       
 	    <div class="col-md-12" style="text-align:center;">
 		 <script>
-			$( "button" ).click(function() {
+			$( "button#transcript1" ).click(function() {
 			  $( "transcript" ).toggle();
 			});
 		</script>
-	    <button class="btn btn-lg btn-danger">See Transcript</button>    
+		    <label for="transcript1" class="sr-only">Transcript</label>
+	    <button id="transcript1" name="transcript1" class="btn btn-lg btn-danger">See Transcript</button>    
 	    </div><!-- closes col-md-12 -->
 	    <div class="col-md-12">
-	    <transcript id="transcript1" style="display:none">
+	    <transcript id="xcript1" style="display:none">
 	    </div><!-- closes col-md-12 -->    
             <div class="col-md-12">
 
