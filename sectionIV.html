@@ -4,51 +4,55 @@
  <title property="name"> Educause 2017 | Presentation</title>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" type="text/css" href="css/main.css">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- </head>
+ <link rel="stylesheet" type="text/css" href="github.css">
+	</head>
   <body>
-    <div class="row">	  
-       <div class="container">
-<div style="margin-top:50px;"><!-- wrapper for top nav -->	       
-     <nav>	 
-	<div class="col-md-4" style="text-align:center;">
-	  <a href="sectionIII.html">Previous: Background</a><br />		       
-	</div>			 
-	<div class="col-md-4" style="text-align:center;">
-	  <a href="sectionV.html">Next: Overview of Critical Concerns</a><br />		       
-	</div>
-        <div class="col-md-4" style="text-align:center;">
-	  <a href="sectionI.html">Table of Contents</a><br />		       
-	</div>				  
-    </nav>
-</div><!-- closes wrapper for top nav -->	       
-	<main><!-- necessary for screen readers -->	
-	 <div class="col-md-12">
-	   <article>
-	     <header>	 
-		 <div style="margin-top:50px;">
-		     <h2><span style="font-family:Arial;">Empowering Students with Disabilities</h2> 
-		     <h3><span style="font-family:Arial;">Through an Online Student Support Portal </span></h3>
-		     <h3><span style="font-family:Arial;">2017 EDUCAUSE Annual Conference </span></h3>
-		 </div>
-	      </header>	
-		   		   
-<div><!-- opens first paragraph -->   
-The architecture of the Online Student Support Portal was designed and developed by Dr. Casey Frechette. He created the code libraries and blueprints by which to construct the custom Content Management System (CMS). This meant, specifically, that he designed the custom, responsive Graphical User Interfaces (GUIs) as well as the custom database structure to provide customized data output. Mr. Berrie Watson designed and established the network architecture by which the portal was able to be developed in a manner that ensured stability, and also, safety for the network. Without this solid foundation of the database maintenance and perimeter fence of network security, none of us would have been able to work. Ms. Sharon Austin “built” the CMS according to the code blueprints and libraries designed and developed by Dr. Casey Frechette. Because of the team’s commitment to accessibility, a USFSP student with multiple disabilities, Mr. Robert Beasey, was present while the CMS was built, to provide input on at least a weekly basis. 
-</div><br />
-<div><!-- opens second paragraph --> 
-Development of the portal was iterative, with multiple files being updated simultaneously and replicated using SourceTree and GIT. Protection of the work and access for varying levels of network visibility required for the project. The control of data into and out of secure networks at the USFSP Nelson Poynter Memorial Library involved use of VPN, Cisco firewall, and local controls to establish access for onsite users only during the development period. Virtual networks allowed the machine exposure to either a live, unrestricted network, or an internal/VPN network when necessary. The architecture of the server used was virtual, based on VMWare products. Two instances were employed, for testing and pre-production. Testing and development were done using a combination of local MAMP environments and a testing instance on a stand-alone machine using VMWare Workstation. A production level instance was copied from the testing virtual machine and located on a VMWare ESX host and storage array. Backups and systems components were managed in a flexible manner virtually, which allowed ‘snapshots’ of machine state and data at critical times. This allowed rollbacks to prior server and data states, protecting programming milestones and lessening the risks of testing. Virtual backups were stored off-array using Dell’s vRanger Pro application to compress and manage backups of the full server. 
-</div><br />
- <div><!-- opens third paragraph --> 
-While the paragraph above describes the technical aspects of the construction of the portal, it does not address the commitment to a ‘student-first’ vision. The team recognized that technology alone could not solve the problems stakeholders identified in the interviews. The technology had to connect students with the support they needed in a meaningful way, and for the process to be meaningful, all parties had to be able to participate. A barrier to participation is the fact that information and expertise is in silos. Another barrier to participation is the fact that often, a student must have a login and/or NetID to get help. This precludes family, friends, and community members that could help the student from participating easily in assisting the student. “Bureaucratic and hierarchical organizations show formal and administrative procedures that prevent the sharing of knowledge and new ideas” (Khosrow-Pour, 2008). In examining the organizational charts, we found that it was almost inevitable that information the student needed would fall into silos. Single or few authoritative experts held the keys to the knowledge kingdom. Yet, we all understand, instinctively, that it does indeed take a village to raise a child. “A community of individuals is more likely to practice wisdom than a single individual.” (Gunawardena et al, 2004).  
-</div><br />
- <div><!-- opens fourth paragraph --> 
-Consequently, the “vision” of how to solve the technical problem on how breakthrough information silos, and connect a community of support to the student in need, was based on over a decade’s worth of thought and consideration. The vision of how to use technology to solve a human problem was built upon a FOCAL model. “The mission of the FOCAL model is to provide support for an online community through human-human interaction. Learning is a participatory process where members share their feeling of belonging, experiences, ritual, culture, and knowledge in a collaborative practice in support of the community's common goals and missions.” (Gunawardena et al, 2004). The vision of using a FOCAL model to use technology to solve the problems identified by stakeholders dovetailed with the Regional Chancellor’s Bold Goals of Strategic Partnerships. The portal is designed to allow communications with, and share resources with, USFSP Partners that provide civic engagement and off-campus mentoring. Control is granular on the platform. There’s an ability for organizational units to use the platform as an internal communication system to communicate information about student questions. 
-</div><br />
- <div><!-- opens fifth paragraph --> 
-The technology of the portal was designed and developed to cross silos, and to surface diverse expertise to the student, rather than have the student look for the expertise. This meant that the portal had to be able to put everything from all the various departments into just one bucket, and then sort it out again when the student asked for it. to make sure that this could happen, functionality testing was done frequently, and iteratively.
-</div><br />
+     <div class="row">	    
+   	<div style="background:url(CITY_HALL_PHILADELPHIA.jpg);background-size:cover;text-align:center;background-color:black;color:white;padding:50px;height:200px;">
+           <div class="container">
+		     <!-- Using links that have large areas as buttons assists those with low vision -->
+		     <!-- Using links that have large areas as buttons assists those with poor motor skills -->
+		     <!-- Some link formatting references follow -->
+		     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#index-aria-link -->
+		     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/document-metadata.html#attr-link-rel -->
+		     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#index-aria-link -->
+	   <div class="col-md-12" style="text-align:center;">
+	     <h2>Framework</h2>   
+	   </div>
+           <nav>	  	  
+	   <div class="col-md-3" style="text-align:center;">
+	      <!-- https://www.w3.org/TR/2014/REC-html5-20141028/links.html#link-type-prev -->
+	      <a rel="prev" role="link" type="prev" aria-label="previous" href="sectionIII.html" class="btn btn-default btn-lg" style="display:block;"><span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>Previous</a>
+	      <!-- https://www.w3.org/TR/2014/REC-html5-20141028/document-metadata.html#attr-link-rel -->
+	   </div><!-- closes div for previous -->		 
+	   <div class="col-md-6" style="text-align:center;">
+	     <!-- <h2>Introduction</h2>	-->	             
+	   </div><!-- closes middle -->
+	   <div class="col-md-3" style="text-align:center;">
+	     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/links.html#link-type-next -->   		     
+	     <a rel="next" role="link" type="next" aria-label="next" href="sectionV.html" class="btn btn-default btn-lg" style="display:block;">Next <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></a>
+	   </div><!-- closes div for next --> 		 
+	  </nav>		     
+	</div><!-- background image for nav -->
+       </div><!-- container for background image and nav -->     
+      </div><!-- row for background image and nav-->
+		   <div class="row">
+			   <div class="container">
+				   <div class="col-md-12">
+					   <h3 class="padtopbottomcenter25">The Framework.  Or, How the Portal Was Built</h3>
+ 
+<p>The architecture of the Online Student Support Portal was designed and developed by Dr. Casey Frechette. He created the code libraries and blueprints by which to construct the custom Content Management System (CMS). This meant, specifically, that he designed the custom, responsive Graphical User Interfaces (GUIs) as well as the custom database structure to provide customized data output. Mr. Berrie Watson designed and established the network architecture by which the portal was able to be developed in a manner that ensured stability, and also, safety for the network. Without this solid foundation of the database maintenance and perimeter fence of network security, none of us would have been able to work. Ms. Sharon Austin “built” the CMS according to the code blueprints and libraries designed and developed by Dr. Casey Frechette. Because of the team’s commitment to accessibility, a USFSP student with multiple disabilities, Mr. Robert Beasey, was present while the CMS was built, to provide input on at least a weekly basis.</p> 
+
+<p>Development of the portal was iterative, with multiple files being updated simultaneously and replicated using SourceTree and GIT. Protection of the work and access for varying levels of network visibility required for the project. The control of data into and out of secure networks at the USFSP Nelson Poynter Memorial Library involved use of VPN, Cisco firewall, and local controls to establish access for onsite users only during the development period. Virtual networks allowed the machine exposure to either a live, unrestricted network, or an internal/VPN network when necessary. The architecture of the server used was virtual, based on VMWare products. Two instances were employed, for testing and pre-production. Testing and development were done using a combination of local MAMP environments and a testing instance on a stand-alone machine using VMWare Workstation. A production level instance was copied from the testing virtual machine and located on a VMWare ESX host and storage array. Backups and systems components were managed in a flexible manner virtually, which allowed ‘snapshots’ of machine state and data at critical times. This allowed rollbacks to prior server and data states, protecting programming milestones and lessening the risks of testing. Virtual backups were stored off-array using Dell’s vRanger Pro application to compress and manage backups of the full server. </p>
+
+<p>While the paragraph above describes the technical aspects of the construction of the portal, it does not address the commitment to a ‘student-first’ vision. The team recognized that technology alone could not solve the problems stakeholders identified in the interviews. The technology had to connect students with the support they needed in a meaningful way, and for the process to be meaningful, all parties had to be able to participate. A barrier to participation is the fact that information and expertise is in silos. Another barrier to participation is the fact that often, a student must have a login and/or NetID to get help. This precludes family, friends, and community members that could help the student from participating easily in assisting the student. “Bureaucratic and hierarchical organizations show formal and administrative procedures that prevent the sharing of knowledge and new ideas” (Khosrow-Pour, 2008). In examining the organizational charts, we found that it was almost inevitable that information the student needed would fall into silos. Single or few authoritative experts held the keys to the knowledge kingdom. Yet, we all understand, instinctively, that it does indeed take a village to raise a child. “A community of individuals is more likely to practice wisdom than a single individual.” (Gunawardena et al, 2004).</p>  
+ 
+<p>Consequently, the “vision” of how to solve the technical problem on how breakthrough information silos, and connect a community of support to the student in need, was based on over a decade’s worth of thought and consideration. The vision of how to use technology to solve a human problem was built upon a FOCAL model. “The mission of the FOCAL model is to provide support for an online community through human-human interaction. Learning is a participatory process where members share their feeling of belonging, experiences, ritual, culture, and knowledge in a collaborative practice in support of the community's common goals and missions.” (Gunawardena et al, 2004). The vision of using a FOCAL model to use technology to solve the problems identified by stakeholders dovetailed with the Regional Chancellor’s Bold Goals of Strategic Partnerships. The portal is designed to allow communications with, and share resources with, USFSP Partners that provide civic engagement and off-campus mentoring. Control is granular on the platform. There’s an ability for organizational units to use the platform as an internal communication system to communicate information about student questions.</p> 
+
+
+<p>The technology of the portal was designed and developed to cross silos, and to surface diverse expertise to the student, rather than have the student look for the expertise. This meant that the portal had to be able to put everything from all the various departments into just one bucket, and then sort it out again when the student asked for it. to make sure that this could happen, functionality testing was done frequently, and iteratively.</p>
+
 
 	</div><!-- col-md-12 -->
       </article>
