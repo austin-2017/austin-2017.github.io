@@ -4,61 +4,68 @@
  <title property="name"> Educause 2017 | Presentation</title>
  <meta charset="UTF-8">
  <meta name="viewport" content="width=device-width, initial-scale=1">
- <link rel="stylesheet" type="text/css" href="css/main.css">
 <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
- </head>
+ <link rel="stylesheet" type="text/css" href="github.css">
+	</head>
   <body>
-    <div class="row">	  
-       <div class="container">
-	       <div class="col-md-4">
-	       	  <h3>EDUCAUSE</h3>
-		  <h4><span style="color:red;border-bottom:2px solid gray;">ANNUAL CONFERENCE</span> 2017</h4>
-	       </div>
-	       
-        <nav>	 
-	<div class="col-md-4">
-	  <a href="sectionIV.html" class="btn btn-danger btn-lg" style="background-color:black;" role="button">Previous: How the Portal Was Built</a>	       
-	</div>			 
-        <div class="col-md-4">
-	  <a href="sectionVI.html" class="btn btn-danger btn-lg" style="background-color:black;" role="button">Next: Time Management</a>
-	</div>				  
-       </nav>
-	       
-   </div><!-- container for nav -->	             
-</div><!-- closes row for top nav -->
-	  
-        <div class="row" style="text-align:center;">
-	  <h3>Empowering Students with Disabilities Through an Online Student Support Portal</h3>
-	 </div><!-- top row -->
-	  <div class="row" style="background-color:black;color:white;text-align:center;">
-	    <h2>Discoveries</h2>
-	  </div>
-     
-	  
+     <div class="row">	    
+   	<div style="background:url(CITY_HALL_PHILADELPHIA.jpg);background-size:cover;text-align:center;background-color:black;color:white;padding:50px;height:200px;">
+           <div class="container">
+		     <!-- Using links that have large areas as buttons assists those with low vision -->
+		     <!-- Using links that have large areas as buttons assists those with poor motor skills -->
+		     <!-- Some link formatting references follow -->
+		     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#index-aria-link -->
+		     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/document-metadata.html#attr-link-rel -->
+		     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/dom.html#index-aria-link -->
+	   <div class="col-md-12" style="text-align:center;">
+	     <h2>Discoveries</h2>   
+	   </div>
+           <nav>	  	  
+	   <div class="col-md-3" style="text-align:center;">
+	      <!-- https://www.w3.org/TR/2014/REC-html5-20141028/links.html#link-type-prev -->
+	      <a rel="prev" role="link" type="prev" aria-label="previous" href="sectionIV.html" class="btn btn-default btn-lg" style="display:block;"><span class="glyphicon glyphicon-triangle-left" aria-hidden="true"></span>Previous</a>
+	      <!-- https://www.w3.org/TR/2014/REC-html5-20141028/document-metadata.html#attr-link-rel -->
+	   </div><!-- closes div for previous -->		 
+	   <div class="col-md-6" style="text-align:center;">
+	     <!-- <h2>Introduction</h2>	-->	             
+	   </div><!-- closes middle -->
+	   <div class="col-md-3" style="text-align:center;">
+	     <!-- https://www.w3.org/TR/2014/REC-html5-20141028/links.html#link-type-next -->   		     
+	     <a rel="next" role="link" type="next" aria-label="next" href="sectionVI.html" class="btn btn-default btn-lg" style="display:block;">Next <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span></a>
+	   </div><!-- closes div for next --> 		 
+	  </nav>		     
+	</div><!-- background image for nav -->
+       </div><!-- container for background image and nav -->     
+      </div><!-- row for background image and nav-->
+		   <div class="row">
+			   <div class="container">
+				   <div class="col-md-12">
+					   <h3 class="padtopbottomcenter25">Discoveries.  Or, How Unexpected Stumbles Made a Better Site.</h3>
+ 
   <div class="row">
     <div class="container">
 	<main><!-- necessary for screen readers -->	
 	 <div class="col-md-12">
 	   <article>
 		   		   
-<div><!-- opens first paragraph -->   
-	<h4><strong>1. Students find it confusing and difficult to obtain information.</strong>></h4><br />
-	<h5>Information about online learning appears in different places and formats. Students aren’t sure where to look or how to interpret the information they receive.</h5><br />
+<p>
+ <h4><strong>1. Students find it confusing and difficult to obtain information.</strong>></h4><br />
+ <h5>Information about online learning appears in different places and formats. Students aren’t sure where to look or how to interpret the information they receive.</h5>
+</p>		   
+<p>
+<h5>This concern really encompasses two distinct components; confusion, and difficulty. How this was addressed in the Online Student Support Portal:</h5>	
+<h5>To address difficulty: The portal was designed to bring information to the student, rather than have the student search for information. This was accomplished via custom code, developed in-house, and unique to USFSP.</h5>
+		 
+<h5>To address confusion: The portal structure was developed to work around centralized repositories, customized to USFSP and populated by authoritative USFSP stakeholders. This content is dynamically generated, meaning, as soon as a stakeholder updates the information, the information is immediately available to students. No middle-man is required.</h5>
+	
+<h5>Also to address confusion: The portal was designed to bridge the “two kinds” of content silos: Technological, and Organizational. The portal provides a technological path to cross silos, but the technology alone is not enough. Organizational expertise is made available via keywords so that student concerns may be forwarded to an appropriate organizational unit by consulting a keyword list. This enables a bridge across silos not only from a technical standpoint, but an informational one also. It enables a way to find the expertise of other departments. The keywords are maintained by the stakeholders themselves.</h5>
+</p>	
+<p><!-- opens second paragraph --> 
 
-<h5>This concern really encompasses two distinct components; confusion, and difficulty. How this was addressed in the Online Student Support Portal:</h5><br />
-	
-<h5>To address difficulty: The portal was designed to bring information to the student, rather than have the student search for information. This was accomplished via custom code, developed in-house, and unique to USFSP.</h5><br /> 
-	
-<h5>To address confusion: The portal structure was developed to work around centralized repositories, customized to USFSP and populated by authoritative USFSP stakeholders. This content is dynamically generated, meaning, as soon as a stakeholder updates the information, the information is immediately available to students. No middle-man is required.</h5><br />
-	
-<h5>Also to address confusion: The portal was designed to bridge the “two kinds” of content silos: Technological, and Organizational. The portal provides a technological path to cross silos, but the technology alone is not enough. Organizational expertise is made available via keywords so that student concerns may be forwarded to an appropriate organizational unit by consulting a keyword list. This enables a bridge across silos not only from a technical standpoint, but an informational one also. It enables a way to find the expertise of other departments. The keywords are maintained by the stakeholders themselves.</h5><br />
-</div><br />
-<div><!-- opens second paragraph --> 
-
-<strong>2. It’s a challenge to balance student privacy with the transparency needed to promote student safety.</strong><br /><br />
-Finding the right balance between protecting and disseminating information is critical.<br /><br />
-How this was addressed in the Online Student Support Portal:<br /><br /> 
-A “Help” drop-down menu available on every public-facing page, with the special note that if there is an emergency, to call 9-1-1.<br /><br /> 
+<strong><h4>2. It’s a challenge to balance student privacy with the transparency needed to promote student safety.</h4></strong>
+ <h4>Finding the right balance between protecting and disseminating information is critical.</h4>
+  <h5>How this was addressed in the Online Student Support Portal:</h5>
+<h5>A “Help” drop-down menu available on every public-facing page, with the special note that if there is an emergency, to call 9-1-1.</h5> 
 Develop a chat platform that allowed anonymous and private conversation for students, strengthened by a keyword feature, unique to USFSP, that supported staff in the routing of the chat to an appropriate authority. This includes the ability to list and publicize special USF system after-hours support for USFSP students, and the ability to list off-campus support institutions, such as area hospitals. On the recommendation of one of our students with disabilities, geolocation features were incorporated for mobile devices. To address privacy concerns, permission must be enabled before geolocation is enabled.<br /><br />
 </div><br />
 <div><!-- opens third paragraph --> 
